@@ -1,0 +1,14 @@
+{
+    "fullname": "lib.namespace.libname",
+    "git_pointer": "github://zerynth/partner-blueprints",
+    "title": "My awesome library",
+    "description": "My awesome library description",
+    "keywords": [
+        "temperature",
+        "sensor",
+        "I2C",
+        "whatever"
+    ],
+    "repo": "official",
+    "version": "r2.1.2"
+}
