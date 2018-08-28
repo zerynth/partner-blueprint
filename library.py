@@ -10,7 +10,7 @@
 
 def my_function(a,b,c):
     """
-.. function::my_function(a,b,c)
+.. function:: my_function(a,b,c)
 
     Here goes the documentation of this function.
     This will be parsed and included in the final documentation.
