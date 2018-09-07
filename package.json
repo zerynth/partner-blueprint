@@ -9,6 +9,12 @@
         "I2C",
         "whatever"
     ],
+    "info": {
+        "chip_manufacturer": "awesomemanufacturer",
+        "chip_name": "awesome chip",
+        "name": "Temperature Sensor",
+        "type": "Sensor"
+    }, 
     "repo": "official",
     "version": "r2.1.2"
 }
