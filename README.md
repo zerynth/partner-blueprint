@@ -18,7 +18,7 @@ The fields requiring a change are:
   `from namespace.libname import module`. It is therefore not possible for namespaces and libnames to start with numbers or to
   contain special symbols (apart from underscore).
 - *git_pointer*: the short url where the library repo can be found. It is formatted as `github://github-account//repo`.
-  For this repo, the git_pointer would be `github://zerynth/partner-blueprint`.
+  For this repo, the git_pointer would be `github://zerynth/partner-blueprint`. For a forked one, with custom name, it could be `github://partnername/zerynth-partnername-libname`.
 - *title*: the title of the library. It will be shown in the Zerynth package manager.
 - *description*: a longer description of the library. It will be indexed to be searched in Zerynth Studio.
 - *keywords*: a list of (max) 5 keywords that will be used to index the library in Zerynth Studio.
