@@ -3,7 +3,7 @@ Zerynth Partner Library Blueprints
 
 This repository contains blueprints for developing Zerynth Partner Libraries. A partner library is hosted on Github 
 in the partner account and the partner is responsible for its maintenance. 
-To create a new partner library please fork this repo and follow the instructions.
+To create a new partner library please fork this repo, choosing a custom name for it (e.g., zerynth-partnername-libname), and follow the instructions.
 
 
 Modify package.json
@@ -23,6 +23,7 @@ The fields requiring a change are:
 - *description*: a longer description of the library. It will be indexed to be searched in Zerynth Studio.
 - *keywords*: a list of (max) 5 keywords that will be used to index the library in Zerynth Studio.
 - *version*: the current version of the library. Should match the current version of Zerynth.
+- *info*: a dictionary to be filled with "chip_manufacturer", "chip_name", "name" (really short description of the library) and type (one or two words for the category of the library). Info is going to be reported in [this](https://www.zerynth.com/zerynth-libraries/) table. 
 
 
 Adding source code
